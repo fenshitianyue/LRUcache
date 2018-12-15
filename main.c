@@ -20,7 +20,7 @@
     if('\0' == data) \
       fprintf(stderr, "get data (key:%c) from cache fail.\n", key); \
     else if(key == data) \
-      fprintf(stdout, "got (%c %c) from cache\n", key, data) \
+      fprintf(stdout, "get (%c %c) from cache\n", key, data) \
   }while(0)
 
 /*测试用例*/
